@@ -44,11 +44,23 @@
 
 ### Option 2: Using Kaggle API
 
-```bash
-pip install kaggle
+    ```bash
+        pip install kaggle
 
 # Authenticate with Kaggle (requires API token)
 kaggle competitions download -c ieee-fraud-detection
 
 # Unzip into data directory
 unzip ieee-fraud-detection.zip -d fraudbench_data/
+
+
+### Option 3: Load and Prepare Datasets in Python
+
+      ```bash
+      from fraudbench import FraudBench
+
+bench = FraudBench(data_dir='./fraudbench_data')
+bench.prepare_datasets()  # Downloads PaySim and European Credit Card datasets
+
+
+
