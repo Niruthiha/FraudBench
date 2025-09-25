@@ -214,10 +214,6 @@ Contributions are welcome! Please:
 
 MIT License - see LICENSE file for details
 
-## Contact
-
-For questions or issues, please open a GitHub issue or contact [your email].
-
 ## Acknowledgments
 
 - IEEE-CIS dataset provided by Vesta Corporation
