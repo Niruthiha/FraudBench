@@ -47,10 +47,10 @@
     ```bash
         pip install kaggle
 
-# Authenticate with Kaggle (requires API token)
+### Authenticate with Kaggle (requires API token)
 kaggle competitions download -c ieee-fraud-detection
 
-# Unzip into data directory
+#### Unzip into data directory
 unzip ieee-fraud-detection.zip -d fraudbench_data/
 
 
