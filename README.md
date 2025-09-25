@@ -23,8 +23,8 @@
 ## Setup Instructions
 
 1. Create data directory:
-```bash
-mkdir fraudbench_data
+  ```bash
+  mkdir fraudbench_data
 
 2. # Option 1: Manual download
 # Go to https://www.kaggle.com/c/ieee-fraud-detection/data
