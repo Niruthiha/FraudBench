@@ -26,6 +26,8 @@
   ```bash
   mkdir fraudbench_data
 
+-----
+
 2. # Option 1: Manual download
 # Go to https://www.kaggle.com/c/ieee-fraud-detection/data
 # Download and extract to fraudbench_data/
